@@ -1,0 +1,15 @@
+{
+    "eslint.workingDirectories": [
+        {
+            "directory": "./ui",
+            "changeProcessCWD": true
+        }
+    ],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.validate": [
+        "javascript"
+    ]
+}

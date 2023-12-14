@@ -1,0 +1,1481 @@
+[
+    {
+        "name": "bifs",
+        "description": "MPEG-4 BIFS v1 Scene Description",
+        "mime": "application/bifs",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "bifs2",
+        "description": "MPEG-4 BIFS v2 Scene Description",
+        "mime": "application/bifs",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "bifsX",
+        "description": "MPEG-4 BIFS Extended Scene Description",
+        "mime": "application/bifs",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "od",
+        "description": "MPEG-4 ObjectDescriptor v1",
+        "mime": "application/bifs",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "od2",
+        "description": "MPEG-4 ObjectDescriptor v2",
+        "mime": "application/bifs",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "interact",
+        "description": "MPEG-4 Interaction Stream",
+        "mime": "application/x-mpeg4-interact",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "afx",
+        "description": "MPEG-4 AFX Stream",
+        "mime": "application/x-mpeg4-afx",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "font",
+        "description": "MPEG-4 Font Stream",
+        "mime": "application/x-mpeg4-font",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "syntex",
+        "description": "MPEG-4 Synthetized Texture",
+        "mime": "application/x-mpeg4-synth",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "m4txt",
+        "description": "MPEG-4 Streaming Text",
+        "mime": "application/x-mpeg4-text",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "laser",
+        "description": "MPEG-4 LASeR",
+        "mime": "application/x-laser",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "saf",
+        "description": "MPEG-4 Simple Aggregation Format",
+        "mime": "application/saf",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "m4ve",
+        "description": "MPEG-4 Visual part 2",
+        "variant_of": "cmp",
+        "mime": "video/mp4v-es",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "m4v",
+        "description": "MPEG-4 Visual part 2",
+        "variant_of": "cmp",
+        "mime": "video/mp4v-es",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "cmp",
+        "description": "MPEG-4 Visual part 2",
+        "mime": "video/mp4v-es",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "avc",
+        "description": "MPEG-4 AVC|H264 Scalable Video Coding",
+        "variant_of": "svc",
+        "mime": "video/svc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "h264",
+        "description": "MPEG-4 AVC|H264 Scalable Video Coding",
+        "variant_of": "svc",
+        "mime": "video/svc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "264",
+        "description": "MPEG-4 AVC|H264 Scalable Video Coding",
+        "variant_of": "svc",
+        "mime": "video/svc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "avcps",
+        "description": "MPEG-4 AVC|H264 Video Parameter Sets",
+        "mime": "video/avc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "svc",
+        "description": "MPEG-4 AVC|H264 Scalable Video Coding",
+        "mime": "video/svc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "mvc",
+        "description": "MPEG-4 AVC|H264 Multiview Video Coding",
+        "mime": "video/mvc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "hevc",
+        "description": "HEVC Video",
+        "variant_of": "hvc",
+        "mime": "video/hevc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "h265",
+        "description": "HEVC Video",
+        "variant_of": "hvc",
+        "mime": "video/hevc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "hvc",
+        "description": "HEVC Video",
+        "mime": "video/hevc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "shvc",
+        "description": "HEVC Video Layered Extensions",
+        "variant_of": "lhvc",
+        "mime": "video/lhvc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "mhvc",
+        "description": "HEVC Video Layered Extensions",
+        "variant_of": "lhvc",
+        "mime": "video/lhvc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "lhvc",
+        "description": "HEVC Video Layered Extensions",
+        "mime": "video/lhvc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "m2vs",
+        "description": "MPEG-2 Visual Simple",
+        "mime": "video/mp2v-es",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "m2v",
+        "description": "MPEG-2 Visual 422",
+        "mime": "video/mp2v-es",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "m2vsnr",
+        "description": "MPEG-2 Visual SNR",
+        "variant_of": "m2v",
+        "mime": "video/mp2v-es",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "m2vspat",
+        "description": "MPEG-2 Visual Spatial",
+        "variant_of": "m2v",
+        "mime": "video/mp2v-es",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "m2vh",
+        "description": "MPEG-2 Visual High",
+        "variant_of": "m2v",
+        "mime": "video/mp2v-es",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "m2v4",
+        "description": "MPEG-2 Visual 422",
+        "variant_of": "m2v",
+        "mime": "video/mp2v-es",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "m1v",
+        "description": "MPEG-1 Video",
+        "mime": "video/mp1v-es",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "jpeg",
+        "description": "JPEG Image",
+        "variant_of": "jpg",
+        "mime": "image/jpeg",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "jpg",
+        "description": "JPEG Image",
+        "mime": "image/jpeg",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "png",
+        "description": "PNG Image",
+        "mime": "image/png",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "j2k",
+        "description": "JPEG2000 Image",
+        "variant_of": "jp2",
+        "mime": "image/jp2",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "jp2",
+        "description": "JPEG2000 Image",
+        "mime": "image/jp2",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "aac",
+        "description": "MPEG-2 AAC Audio Scalable Sampling Rate",
+        "mime": "audio/aac",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "aac2m",
+        "description": "MPEG-2 AAC Audio Main",
+        "variant_of": "aac",
+        "mime": "audio/aac",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "aac2l",
+        "description": "MPEG-2 AAC Audio Low Complexity",
+        "variant_of": "aac",
+        "mime": "audio/aac",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "aac2s",
+        "description": "MPEG-2 AAC Audio Scalable Sampling Rate",
+        "variant_of": "aac",
+        "mime": "audio/aac",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "m1a",
+        "description": "MPEG-1 Audio",
+        "variant_of": "mp3",
+        "mime": "audio/mp3",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "mp3",
+        "description": "MPEG-1 Audio",
+        "mime": "audio/mp3",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "mp2",
+        "description": "MPEG-2 Audio",
+        "mime": "audio/mpeg",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "mp1",
+        "description": "MPEG-1 Audio Layer 1",
+        "mime": "audio/mpeg",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "h263",
+        "description": "H263 Video",
+        "mime": "video/h263",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "hvt1",
+        "description": "HEVC tiles Video",
+        "mime": "video/x-hevc-tiles",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "evrc",
+        "description": "EVRC Voice",
+        "variant_of": "evc",
+        "mime": "audio/evrc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "evc",
+        "description": "EVRC Voice",
+        "mime": "audio/evrc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "smv",
+        "description": "SMV Voice",
+        "mime": "audio/smv",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "qcelp",
+        "description": "QCELP Voice",
+        "variant_of": "qcp",
+        "mime": "audio/qcelp",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "qcp",
+        "description": "EVRC (PacketVideo MUX) Audio",
+        "mime": "audio/evrc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "amr",
+        "description": "AMR WideBand Audio",
+        "mime": "audio/amr",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "amrwb",
+        "description": "AMR WideBand Audio",
+        "variant_of": "amr",
+        "mime": "audio/amr",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "evrcpv",
+        "description": "EVRC (PacketVideo MUX) Audio",
+        "variant_of": "qcp",
+        "mime": "audio/evrc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "vc1",
+        "description": "SMPTE VC-1 Video",
+        "mime": "video/vc1",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "dirac",
+        "description": "Dirac Video",
+        "mime": "video/dirac",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "ac3",
+        "description": "AC3 Audio",
+        "mime": "audio/ac3",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "eac3",
+        "description": "Enhanced AC3 Audio",
+        "mime": "audio/eac3",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "mlp",
+        "description": "Dolby TrueHD",
+        "mime": "audio/truehd",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "dra",
+        "description": "DRA Audio",
+        "mime": "audio/dra",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "g719",
+        "description": "G719 Audio",
+        "mime": "audio/g719",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "dstca",
+        "description": "DTS Coherent Acoustics Audio",
+        "mime": "audio/dts",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "dtsh",
+        "description": "DTS-HD High Resolution Audio",
+        "mime": "audio/dts",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "dstm",
+        "description": "DTS-HD Master Audio",
+        "mime": "audio/dts",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "dtsl",
+        "description": "DTS Express low bit rate Audio",
+        "mime": "audio/dts",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "opus",
+        "description": "Opus Audio",
+        "mime": "audio/opus",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "eti",
+        "description": "DVB Event Information",
+        "mime": "application/x-dvb-eit",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "svgr",
+        "description": "SVG over RTP",
+        "mime": "application/x-svg-rtp",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "svgzr",
+        "description": "SVG+gz over RTP",
+        "mime": "application/x-svgz-rtp",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "dims",
+        "description": "3GPP DIMS Scene",
+        "mime": "application/3gpp-dims",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "vtt",
+        "description": "WebVTT Text",
+        "mime": "text/vtt",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "txt",
+        "description": "Simple Text Stream",
+        "mime": "text/subtitle",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "mtxt",
+        "description": "Metadata Text Stream",
+        "mime": "application/text",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "mxml",
+        "description": "Metadata XML Stream",
+        "mime": "application/text+xml",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "subs",
+        "description": "Subtitle text Stream",
+        "mime": "text/text",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "subx",
+        "description": "Subtitle XML Stream",
+        "mime": "text/text+xml",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "tx3g",
+        "description": "Subtitle/text 3GPP/Apple Stream",
+        "mime": "quicktime/text",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": false
+        }
+    },
+    {
+        "name": "ssa",
+        "description": "SSA /ASS Subtitles",
+        "mime": "text/x-ssa",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "theora",
+        "description": "Theora Video",
+        "variant_of": "theo",
+        "mime": "video/theora",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "theo",
+        "description": "Theora Video",
+        "mime": "video/theora",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "vorbis",
+        "description": "Vorbis Audio",
+        "variant_of": "vorb",
+        "mime": "audio/vorbis",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "vorb",
+        "description": "Vorbis Audio",
+        "mime": "audio/vorbis",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "flac",
+        "description": "Flac Audio",
+        "mime": "audio/flac",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "speex",
+        "description": "Speex Audio",
+        "variant_of": "spx",
+        "mime": "audio/speex",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "spx",
+        "description": "Speex Audio",
+        "mime": "audio/speex",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "vobsub",
+        "description": "VobSub Subtitle",
+        "mime": "text/x-vobsub",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "adpcm",
+        "description": "AD-PCM",
+        "mime": "audio/pcm",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "csvd",
+        "description": "IBM CSVD",
+        "mime": "audio/pcm",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "alaw",
+        "description": "ALAW",
+        "mime": "audio/pcm",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "mulaw",
+        "description": "MULAW",
+        "mime": "audio/pcm",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "okiadpcm",
+        "description": "OKI ADPCM",
+        "mime": "audio/pcm",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "dviadpcm",
+        "description": "DVI ADPCM",
+        "mime": "audio/pcm",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "digistd",
+        "description": "DIGISTD",
+        "mime": "audio/pcm",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "yamadpcm",
+        "description": "YAMAHA ADPCM",
+        "mime": "audio/pcm",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "truespeech",
+        "description": "DSP TrueSpeech",
+        "mime": "audio/pcm",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "g610",
+        "description": "GSM 610",
+        "mime": "audio/pcm",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "imulaw",
+        "description": "IBM MULAW",
+        "mime": "audio/pcm",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "ialaw",
+        "description": "IBM ALAW",
+        "mime": "audio/pcm",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "iadpcl",
+        "description": "IBM ADPCL",
+        "mime": "audio/pcm",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "swf",
+        "description": "Adobe Flash",
+        "mime": "audio/pcm",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "raw",
+        "description": "Raw media",
+        "mime": "*/*",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "ivf",
+        "description": "VP10 Video",
+        "variant_of": "vp10",
+        "mime": "video/vp10",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "obu",
+        "description": "AOM AV1 Video",
+        "variant_of": "av1",
+        "mime": "video/av1",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "av1b",
+        "description": "AOM AV1 Video",
+        "variant_of": "av1",
+        "mime": "video/av1",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "av1",
+        "description": "AOM AV1 Video",
+        "mime": "video/av1",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "vp8",
+        "description": "VP8 Video",
+        "mime": "video/vp8",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "vp9",
+        "description": "VP9 Video",
+        "mime": "video/vp9",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "vp10",
+        "description": "VP10 Video",
+        "mime": "video/vp10",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "mhas",
+        "description": "MPEG-H AudioMux",
+        "mime": "audio/x-mhas",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "apch",
+        "description": "ProRes Video 422 HQ",
+        "variant_of": "prores",
+        "mime": "video/prores",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "prores",
+        "description": "ProRes Video 4444",
+        "mime": "video/prores",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "apco",
+        "description": "ProRes Video 422 Proxy",
+        "variant_of": "prores",
+        "mime": "video/prores",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "apcn",
+        "description": "ProRes Video 422 STD",
+        "variant_of": "prores",
+        "mime": "video/prores",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "apcs",
+        "description": "ProRes Video 422 LT",
+        "variant_of": "prores",
+        "mime": "video/prores",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "ap4x",
+        "description": "ProRes Video 4444 XQ",
+        "variant_of": "prores",
+        "mime": "video/prores",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "ap4h",
+        "description": "ProRes Video 4444",
+        "variant_of": "prores",
+        "mime": "video/prores",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "ffmpeg",
+        "description": "FFMPEG unmapped codec",
+        "mime": "application/octet-string",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "tmcd",
+        "description": "QT TimeCode",
+        "mime": "application/octet-string",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "266",
+        "description": "VVC Video",
+        "variant_of": "vvc",
+        "mime": "video/vvc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "h266",
+        "description": "VVC Video",
+        "variant_of": "vvc",
+        "mime": "video/vvc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "vvc",
+        "description": "VVC Video",
+        "mime": "video/vvc",
+        "capabilities": {
+            "raw_input": true,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "vvs1",
+        "description": "VVC Subpicture Video",
+        "mime": "video/x-vvc-subpic",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "xheaac",
+        "description": "xHEAAC / USAC Audio",
+        "variant_of": "usac",
+        "mime": "audio/x-xheaac",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "usac",
+        "description": "xHEAAC / USAC Audio",
+        "mime": "audio/x-xheaac",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": true,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "ffv1",
+        "description": "FFMPEG Video Codec 1",
+        "mime": "video/x-ffv1",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": true,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "dvbs",
+        "description": "DVB-TeleText",
+        "mime": "application/octet-string",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": false,
+            "encoder": false
+        }
+    },
+    {
+        "name": "div3",
+        "description": "MS-MPEG4 V3",
+        "mime": "application/octet-string",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": true,
+            "encoder": true
+        }
+    },
+    {
+        "name": "caf",
+        "description": "Apple Lossless Audio",
+        "mime": "application/octet-string",
+        "capabilities": {
+            "raw_input": false,
+            "raw_output": false,
+            "decoder": true,
+            "encoder": true
+        }
+    }
+]

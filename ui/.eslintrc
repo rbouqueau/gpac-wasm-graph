@@ -1,0 +1,70 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "prettier",
+        "tailwindcss",
+        "react-refresh"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react-hooks/recommended",
+        "plugin:import/typescript",
+        "airbnb",
+        "plugin:prettier/recommended",
+        "plugin:tailwindcss/recommended",
+        "prettier"
+    ],
+    "ignorePatterns": [
+        "dist",
+        ".eslintrc",
+        "*.d.ts"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        // Typescript
+        "no-console": [
+            "error",
+            {
+                "allow": [
+                    "warn",
+                    "error"
+                ]
+            }
+        ],
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-unused-vars": "warn",
+        // React
+        "react/react-in-jsx-scope": "off", // React 17 does not require this anymore
+        "react/jsx-sort-props": "error",
+        "react/sort-default-props": "error",
+        "react/jsx-filename-extension": [
+            "error",
+            {
+                "extensions": [
+                    ".tsx"
+                ]
+            }
+        ],
+        // Import
+        "import/extensions": "off",
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true
+            }
+        ]
+    }
+}
