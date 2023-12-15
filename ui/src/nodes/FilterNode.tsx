@@ -1,6 +1,6 @@
 import { Tooltip } from "@mui/material";
 import Fuse from "fuse.js";
-import { useEffect, useMemo } from "react";
+import { useMemo } from "preact/hooks";
 import { Handle, Position } from "reactflow";
 
 export default function FilterNode({ data }) {

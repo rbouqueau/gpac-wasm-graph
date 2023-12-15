@@ -6,28 +6,23 @@
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
-        "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+        "lint": "eslint --fix --ext .ts,tsx .",
+        "format": "prettier --write .",
         "preview": "vite preview"
     },
     "dependencies": {
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
         "@emotion/react": "^11.11.1",
         "@emotion/styled": "^11.11.0",
         "@mui/material": "^5.15.0",
         "clsx": "^2.0.0",
         "fuse.js": "^7.0.0",
+        "preact": "^10.19.3",
         "react-use": "^17.4.2",
         "reactflow": "^11.10.1",
         "xml-js": "^1.6.11"
     },
     "devDependencies": {
-        "@types/react": "^18.2.45",
-        "@types/react-dom": "^18.2.17",
-        "@vitejs/plugin-react": "^4.2.1",
-        "eslint-plugin-react-refresh": "^0.4.5",
-        "typescript": "^5.3.3",
-        "vite": "^5.0.9",
+        "@preact/preset-vite": "^2.7.0",
         "@types/emscripten": "^1.39.10",
         "@typescript-eslint/eslint-plugin": "^6.14.0",
         "@typescript-eslint/parser": "^6.14.0",
@@ -45,6 +40,8 @@
         "eslint-plugin-tailwindcss": "^3.13.0",
         "postcss": "^8.4.32",
         "prettier": "^3.1.1",
-        "tailwindcss": "^3.3.6"
+        "tailwindcss": "^3.3.6",
+        "typescript": "^5.3.3",
+        "vite": "^5.0.10"
     }
 }

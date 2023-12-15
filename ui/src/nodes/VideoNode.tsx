@@ -3,7 +3,7 @@ import { Handle, Position } from "reactflow";
 import clsx from "clsx";
 import { Tooltip } from "@mui/material";
 import styles from "./VideoNode.module.css";
-import { inspectFile } from "../../lib/io/file";
+import inspectFile from "../../lib/io/file";
 
 export default function VideoNode({ data }) {
     const { file } = data;

@@ -7,8 +7,7 @@
     "plugins": [
         "@typescript-eslint",
         "prettier",
-        "tailwindcss",
-        "react-refresh"
+        "tailwindcss"
     ],
     "extends": [
         "eslint:recommended",

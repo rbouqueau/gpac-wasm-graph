@@ -1,6 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "preact/compat";
 import clsx from "clsx";
 import Fuse from "fuse.js";
+import { useEffect, useRef, useState } from "preact/hooks";
 
 import filtersData from "../data/filters.json";
 import useFile from "../hooks/useFile";
@@ -78,6 +79,7 @@ export default function SearchComponent({ onSelected }: { onSelected: (filter: o
                 className={clsx("w-full flex-col gap-2", results.length === 0 ? "hidden" : "flex")}
             >
                 {results.slice(0, 6).map((result) => (
+                    // eslint-disable-next-line jsx-a11y/click-events-have-key-events
                     <div
                         key={result.item.name}
                         className="flex flex-col gap-1 rounded border border-gray-300 bg-gray-50 p-2"
