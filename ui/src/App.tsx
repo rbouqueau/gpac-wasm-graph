@@ -63,7 +63,7 @@ function Flow({ node }) {
         if (!node) return;
 
         // Get mouse position
-        const position = reactFlowInstance.project({ x: docX, y: docY });
+        const position = reactFlowInstance.screenToFlowPosition({ x: docX, y: docY });
 
         // Update position
         node.position = position;
