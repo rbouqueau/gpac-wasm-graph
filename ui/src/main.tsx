@@ -1,5 +1,5 @@
 import { render } from "preact";
-import App from "./app.tsx";
+import App from "./App.tsx";
 import "./index.css";
 import "reactflow/dist/style.css";
 
